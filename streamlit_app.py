@@ -5,15 +5,9 @@ import requests
 import pandas as pd
 
 # Write directly to the app
-st.title("My Parents New Healthy Diner")
+st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
 st.write(
-    """
-    Omega3 and Blueberry oatmeal\n
-    Kale, Spinach and Rocket Smoothie\n
-    Hard-Boiled Free-Range Egg
-    """
-)
-
+    """Choose the fruits you want in your custom Smoothie!
 name_on_order = st.text_input('Name on Smoothie:')
 st.write('The name on your smoothie will be: ', name_on_order)
 
